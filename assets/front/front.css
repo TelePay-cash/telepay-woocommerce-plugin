@@ -1,0 +1,28 @@
+#telepay-currency-select{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.payment_box.payment_method_telepaycash_gateway{
+   text-align: center;
+}
+
+.payment_method_telepaycash_gateway p {
+    padding: .5rem 0;
+    margin: 10px 0 !important;
+    font-size: 1rem;
+}
+
+#telepay-total-price{
+    padding: .5rem;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    
+    #telepay-currency-select{
+        width: 100%;
+    }
+}

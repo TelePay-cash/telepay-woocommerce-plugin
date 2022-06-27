@@ -1,0 +1,18 @@
+{
+    "name": "telepay/telepay",
+    "description": "TelePay Woocommerce Plugin",
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "codenix-sv/coingecko-api": "^1.0"
+    },
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+          "telepayCash\\": "classes/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
