@@ -6,7 +6,7 @@ Process crypto payments easily with TelePay, create your merchant accounts, get 
 
 1. Login into [TelePay](https://telepay.cash) using a Telegram account.
 
-2. [Create a merchant](telepay.cash/addMerchant).
+2. [Create a merchant](https://telepay.cash/addMerchant).
 
 3. Get your API keys in your merchant dashboard, under the Developers section.
 
