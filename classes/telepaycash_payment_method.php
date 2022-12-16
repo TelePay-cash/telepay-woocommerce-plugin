@@ -7,7 +7,7 @@ class telepayCash_payment_method extends WC_Payment_Gateway
         $this->id                   = 'telepaycash_gateway';
         $this->icon                 = telepay_name_plugin . 'assets/img/telepay-icon.png';
         $this->has_fields           = true;
-        $this->method_title         = __( "TelePay Cash", telepay_text_domain );
+        $this->method_title         = __( "TelePay", telepay_text_domain );
         $this->method_description   = __( "Receive crypto-payments with TelePay, create your merchant account, get your API key and automate your invoices. TelePay has a web dashboard, a Telegram integration and more for you to grow your business.", telepay_text_domain );
         $this->supports           = array(
             'products',
@@ -43,7 +43,7 @@ class telepayCash_payment_method extends WC_Payment_Gateway
                 'title'         => __( 'title', telepay_text_domain ),
                 'type'          => 'text',
                 'description'   => __( 'This controls the title which the user sees during checkout.', telepay_text_domain ),
-                'default'       => __( 'TelePay Cash', telepay_text_domain ),
+                'default'       => __( 'TelePay', telepay_text_domain ),
                 'desc_tip'      => true,
             ),
 
