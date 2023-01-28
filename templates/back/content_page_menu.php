@@ -11,7 +11,7 @@ $assets = telepay_get_assets();
         <div class="col-md-8 p-5">
 
             <div class="row my-5">
-                <img src="<?= telepay_name_plugin . 'assets/img/telepay-logo.svg' ?>" alt="TelePay">
+                <img src="<?= telepay_name_plugin . 'assets/img/telepay-logo.svg' ?>" width="200pt" alt="TelePay">
             </div>
 
             <div class="row mb-5">
